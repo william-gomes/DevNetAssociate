@@ -2,7 +2,7 @@
 
 def saudacao():
     print("Olá, mundo!")
-    print("Teste de commit!")
+    print("Teste!")
 
 if __name__ == "__main__":
     saudacao()
