@@ -1,6 +1,8 @@
-good_data = True
-some_data = True
-bad_data = False
+my_first_var = 42
+my_second_var = None
+my_third_var = 24
 
-print (good_data == bad_data)
-print (good_data == some_data)
+print (my_first_var+my_second_var+my_third_var)
+# This code will raise an error because None cannot be added to an integer.
+
+
