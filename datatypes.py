@@ -1,32 +1,23 @@
-my_list = [
-    1, 
-    2, 
-    223, 
-    45, 
-    866,
-    True,
-    'Ola Mundo',
-    None
-]
+my_first_person = {
+    "name": "William",
+    "surname": "Gomes",
+    "age": 31,
+    "is_happy": True,
+    "enemies": [None]
+}
 
-#print(my_list[7])
-# my_list[-1] = 'Banana'
-# print(my_list)
+# print(my_first_person["surname"])  # This will raise a KeyError because 'surname' is not defined as a variable
+#print(my_first_person["surname"],my_first_person["age"])  # This will print the surname and age of the person
 
-my_taple = (
-    1, 
-    2, 
-    223, 
-    45, 
-    866,
-    True,
-    'Ola Mundo',
-    None
-)
+my_second_person = {
+    "name": "John",
+    "surname": "Doe",
+    "age": 25,
+    "is_happy": False,
+    "enemies": [my_first_person]
+}
+my_first_list = [my_first_person, my_second_person]
 
-# print(my_taple[7])
-# my_taple[3] = 'Banana'  # This will raise an error because tuples are immutable
-
-my_first_string = 'Ola Mundo'
-print (my_first_string[2])  # Accessing the four character
-print (my_first_string[2:7])  # Slicing the string from index 2 to 7
+# print(my_first_list[0]["name"])  # This will print the name of the first person in the list
+# print(my_first_list[1]["enemies"][0]["name"])  # This will print the name of the first person's enemy
+print (my_first_list)
