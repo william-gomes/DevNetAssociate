@@ -8,4 +8,9 @@ my_wife_car = Car("Honda", "City", 2013, 95000, "Usado", "Cinza Claro") #Argumen
 # print (my_car.marca) #Vai imprimir o atributo marca do objeto
 # print(my_car.__dict__) #Vai imprimir os atributos do objeto 
 
-print(my_wife_car.__dict__)
+my_car.start() #Liga o carro
+my_car.acelerar(50) #Acelera o carro
+my_car.acelerar(30) #Acelera mais o carro
+my_car.stop() #Desliga o carro
+
+print("O script foi executado com sucesso.".upper()) #Chamando o método upper() da classe str para deixar a mensagem em maiúsculas.
