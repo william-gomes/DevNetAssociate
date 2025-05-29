@@ -1,0 +1,74 @@
+---
+
+cadastro_carro:
+  - car: #Cada - representa uma nova entrada na lista de carros.
+  #Nao era necessario, eu poderia ter começado direto com - marca, estilo fiz no json. Mas deixei assim pra ter duas opções diferentes.
+      marca: "Toyota"
+      modelo: "Corolla"
+      ano: 2020
+      preço:
+          valor: 90000
+          moeda: "BRL"
+      specifications:
+        engine:
+          tipe: "1.8 Flex"
+          horsepower: 139
+          transmission: "Automático CVT"
+        dimensions:
+          length: 4630
+          width: 1775
+          height: 1455
+          wheelbase: 2700
+      features:
+        - "Direcao Hidraulica"
+        - "Ar Condicionado"
+        - "Central Multimidia Original"
+      is_eletric: false
+      owner: "Dagoberto"
+  - car:
+      marca: "Honda"
+      modelo: "City"
+      ano: 2013
+      preço:
+          valor: 51000
+          moeda: "BRL"
+      specifications:
+        engine:
+          tipe: "1.5 Flex"
+          horsepower: 130
+          transmission: "Automático CVT"
+        dimensions:
+          length: 4630
+          width: 1775
+          height: 1455
+          wheelbase: 2700
+      features:
+        - "Direcao Hidraulica"
+        - "Ar Condicionado"
+        - "Central Multimidia Instalada pelo Cliente"
+      is_eletric: false
+      owner: "Ana Paula"
+  - car:
+      marca: "Jeep"
+      modelo: "Compass"
+      ano: 2022
+      preço:
+          valor: 135000
+          moeda: "BRL"
+      specifications:
+        engine:
+          tipe: "1.3 Turbo Flex"
+          horsepower: 185 
+          transmission: "Automático CVT"
+        dimensions:
+          length: 4630
+          width: 1775
+          height: 1455
+          wheelbase: 2700
+      features:
+        - "Direcao Eletrica"
+        - "Ar Condicionado Digital"
+        - "Central Multimidia Original"
+        - "Roda de liga leve aro 17"
+      is_eletric: false
+      owner: "Ryan"

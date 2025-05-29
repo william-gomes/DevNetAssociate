@@ -1,0 +1,89 @@
+<cadastro_carro>
+    <car>
+        <make>Toyota</make> 
+        <model>Corolla</model>
+        <year>2021</year>
+        <price currency="BR">100.000</price>
+        <color>Branco</color>
+        <specifications>
+            <engine>
+                <type>1.8 Flex</type>
+                <horsepower>139</horsepower>
+                <transmission>Automático CVT</transmission>
+            </engine>
+            <dimensions>
+                <length>4.620 mm</length>
+                <width>1.780 mm</width>
+                <height>1.460 mm</height>
+                <wheelbase>2.700 mm</wheelbase>
+            </dimensions>
+        </specifications>
+        <features>
+            <feature>Direção Hidraulica</feature>
+            <feature>Ar Condicionado</feature>
+            <feature>Central Multimidia</feature>
+        </features>
+        <is_eletric>Não</is_eletric>
+        <owner>Marcus Ferreira</owner>
+    </car>
+    <car>
+        <make>Honda</make>
+        <model>Civic</model>
+        <year>2019</year>
+        <price currency="BR">85.000</price>
+        <color>Preto</color>
+        <specifications>
+            <engine>
+                <type>2.0 Flex</type>
+                <horsepower>155</horsepower>
+                <transmission>Automático</transmission>
+            </engine>
+            <dimensions>
+                <length>4.630 mm</length>
+                <width>1.799 mm</width>
+                <height>1.434 mm</height>
+                <wheelbase>2.700 mm</wheelbase>
+            </dimensions>
+        </specifications>
+        <features>
+            <feature>Controle de Estabilidade</feature>
+            <feature>Ar Condicionado Digital</feature>
+            <feature>Banco de Couro</feature>
+        </features>
+        <is_eletric>Não</is_eletric>
+        <owner>Ana Souza</owner>
+    </car>
+    <car>
+        <make>Renault</make>
+        <model>Zoe</model>
+        <year>2022</year>
+        <price currency="BR">150.000</price>
+        <color>Azul</color>
+        <specifications>
+            <engine>
+                <type>Elétrico</type>
+                <horsepower>92</horsepower>
+                <transmission>Automático</transmission>
+            </engine>
+            <dimensions>
+                <length>4.087 mm</length>
+                <width>1.787 mm</width>
+                <height>1.562 mm</height>
+                <wheelbase>2.588 mm</wheelbase>
+            </dimensions>
+        </specifications>
+        <features>
+            <feature>Piloto Automático</feature>
+            <feature>Ar Condicionado Automático</feature>
+            <feature>Carregamento Rápido</feature>
+        </features>
+        <is_eletric>Sim</is_eletric>
+        <owner>Lucas Almeida</owner>
+    </car>
+</cadastro_carro>
+<!-- Após a correção, percebi que estava fechando todas as tags incorretamente com / na frente, como <car/>, 
+     quando o certo é usar a barra apenas no final da tag de fechamento, como </car>. -->
+
+<!-- Também corrigi o atributo 'currency', que estava sem o sinal de igual. 
+     Sempre que usar atributos em XML, o formato correto é: atributo="valor" -->
+
