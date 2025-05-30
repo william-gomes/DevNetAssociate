@@ -1,0 +1,96 @@
+{
+    "cadastro_carro":[ //Um array para poder cadastrar varios carros
+        { //No YAML, eu tinha usado uma chave carro para identificar cada carro, mas nao era necessário
+        //Aqui tambem nao é, por isso já mandei direto, depois do cadastro_carro, ele começa a cadastrar os objetos
+        //representados pelo {}
+            "marca": "Toyota",
+            "modelo": "Corolla",
+            "ano": 2020,
+            "preco": {
+                "valor": 90000,
+                "moeda": "BRL"
+            },
+            "cor": "Prata",
+            "specifications":{
+                "engine":{
+                    "type": "1.8 Flex",
+                    "horsepower": 139,
+                    "transmission": "Automático CVT"
+                },
+                "dimensions": {
+                    "length": "4.63 m",
+                    "width": "1.78 m",
+                    "height": "1.45 m",
+                    "wheelbase": "2.70 m"
+                }
+            },
+            "features":[
+                "Direção Hidraulica",
+                "Ar Condicionado",
+                "Central Multimídia"
+            ],
+            "is_eletric": false,
+            "owner": "Marcus Ferreira"
+        },
+        {
+            "marca": "Chevrolet",
+            "modelo": "Onix",
+            "ano": 2021,
+            "preco": {
+                "valor": 75000,
+                "moeda": "BRL"
+            },
+            "cor": "Preto",
+            "specifications":{
+                "engine":{
+                    "type": "1.0 Turbo",
+                    "horsepower": 116,
+                    "transmission": "Manual de 6 marchas"
+                },
+                "dimensions": {
+                    "length": "4.15 m",
+                    "width": "1.73 m",
+                    "height": "1.47 m",
+                    "wheelbase": "2.55 m"
+                }
+            },
+            "features":[
+                "Direção Elétrica",
+                "Ar Condicionado",
+                "Rodas de Liga Leve"
+            ],
+            "is_eletric": false,
+            "owner": "Ana Souza"
+        },
+        {
+            "marca": "Volkswagen",
+            "modelo": "T-Cross",
+            "ano": 2022,
+            "preco": {
+                "valor": 110000,
+                "moeda": "BRL"
+            },
+            "cor": "Branco",
+            "specifications":{
+                "engine":{
+                    "type": "1.4 Turbo Flex",
+                    "horsepower": 150,
+                    "transmission": "Automático de 6 marchas"
+                },
+                "dimensions": {
+                    "length": "4.19 m",
+                    "width": "1.76 m",
+                    "height": "1.58 m",
+                    "wheelbase": "2.65 m"
+                }
+            },
+            "features":[
+                "Controle de Estabilidade",
+                "Ar Condicionado Digital",
+                "Sensores de Estacionamento"
+            ],
+            "is_eletric": false,
+            "owner": "Carlos Silva"
+        }
+    ]
+}
